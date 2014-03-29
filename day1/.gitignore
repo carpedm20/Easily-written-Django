@@ -1,0 +1,22 @@
+# django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# static
+media
+
+# environment
+venv
+activate
+
+# scrapper
+scrapper
+
+# database
+*.json
+*.sqlite
+
+# etc
+cheatsheet.md
