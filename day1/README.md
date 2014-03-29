@@ -1,6 +1,8 @@
 Day1
 ====
 
+You can change your own port number from 8888 to other number (ex. 1234, 9999)
+
 
 How to start
 ------------
