@@ -1,0 +1,16 @@
+{% if articles.count > 0 %}
+
+
+
+{% for article in articles %}
+<div>
+<h2><a href="/articles/get/{{ article.id }}/">{{ article.title }}</a></h2>
+<p>{{ article.body|lower|truncatewords:"10" }} </p>
+</div>
+{% endfor %}
+
+{% else %}
+
+<p>None to show!</p>
+
+{% endif%}

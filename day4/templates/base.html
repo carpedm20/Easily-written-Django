@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+</head>
+
+<body>
+	<div id="page">
+
+	<div id="slidbar">
+		{% block slidebar %}
+		<ul>
+			<li><a href='/articles/all/'>Articles</a></li>
+			<li><a href='/admin/'>Admin</a></li>
+		{% endblock %}
+	</div>
+
+	<div id="content">
+		{% block content %} {% endblock %}
+	</div>
+
+	</div>
+</body>
+</html>

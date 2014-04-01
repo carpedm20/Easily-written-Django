@@ -32,6 +32,21 @@ Day 1: www.slideshare.net/carpedm20/django-32473577
 Day 2: ???
 
 
+References
+----------
+
+English
+
+- Official Django Tutorials : https://docs.djangoproject.com/en/dev/intro/tutorial01/
+- Mike's Django Tutorials : http://www.mikesdjangotutorials.co.uk/
+- CodingEntreprenuers Django Tutorials : http://www.youtube.com/watch?v=3DccH9AMwFQ
+
+Korean
+
+- Hodduc's Django Seminar : http://sparcs.kaist.ac.kr/seminar/#hodduc-20120618
+- SMARTSTUDY Django Open Session : http://www.slideshare.net/lqez/smartstudy-django-201208
+
+
 Copyright
 ---------
 
