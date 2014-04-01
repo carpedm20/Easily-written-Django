@@ -7,8 +7,9 @@ urlpatterns = patterns('',
     # url(r'^$', 'day4.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^all/$', 'articles.views.articles'),
-    url(r'^get/(?P<article_id>\d+)/$', 'articles.views.article'),
+    url(r'^$', 'articles.views.articles'),
+    url(r'^all/$', 'articles.views.articles', name='all'),
+    url(r'^get/(?P<article_id>\d+)/$', 'articles.views.article', name='get'),
     url(r'^hello/', 'articles.views.hello'),
     url(r'^hello_class/', HelloTemplate.as_view()),
 )

@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+	<title>Articles</title>
+
+	{% load staticfiles %}
+	<!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet/less" type="text/css" href="{% static 'css/custom.less' %}">
 </head>
 
 <body>
-	<div id="page">
+<div class="container">
+	
+    <div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Day4</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="{% block active_articles %}{% endblock %}"><a href="{% url 'articles:all' %}">Articles</a></li>
+          <li><a href="{% url 'admin:index' %}">Admin</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+    </div>
 
-	<div id="slidbar">
-		{% block slidebar %}
-		<ul>
-			<li><a href='/articles/all/'>Articles</a></li>
-			<li><a href='/admin/'>Admin</a></li>
-		{% endblock %}
-	</div>
+	<div class="jumbotron">
+		<div id="slidbar">
+			{% block sidebar %} {% endblock %}
+		</div>
 
-	<div id="content">
-		{% block content %} {% endblock %}
+		<div id="content">
+			{% block content %} {% endblock %}
+		</div>
 	</div>
+</div>
 
-	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{% static '/js/bootstrap.min.js' %}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+
 </body>
 </html>

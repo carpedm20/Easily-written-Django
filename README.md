@@ -27,7 +27,7 @@ Day 2:
 
 Day 3:
 
-- reference: http://www.youtube.com/watch?v=3DccH9AMwFQ
+- reference: http://www.youtube.com/playlist?list=PLEsfXFp6DpzRgedo9IzmcpXYoSeDg29Tx
 
 
 Day 4:
@@ -53,8 +53,9 @@ References
 English
 
 - Official Django Tutorials : https://docs.djangoproject.com/en/dev/intro/tutorial01/
-- CodingEntreprenuers Django Tutorials : http://www.youtube.com/watch?v=3DccH9AMwFQ
+- CodingEntreprenuers Django Tutorials : http://www.youtube.com/playlist?list=PLEsfXFp6DpzRgedo9IzmcpXYoSeDg29Tx
 - Mike's Django Tutorials : http://www.mikesdjangotutorials.co.uk/
+- Learn Python in 10 minutes : http://www.stavros.io/tutorials/python/
 
 Korean
 

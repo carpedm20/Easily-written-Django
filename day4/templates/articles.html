@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
+{% block active_articles %}
+active
+{% endblock %}
+
+{% block sidebar %}
+<ul>
+    <li><a href='/articles/all/'>Articles</a></li>
+	<li><a href='/admin/'>Admin</a></li>
+</ul>
+{% endblock %}
+
 {% block content %}
 
 {% if articles.count > 0 %}

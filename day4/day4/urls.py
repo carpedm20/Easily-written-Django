@@ -8,6 +8,6 @@ urlpatterns = patterns('',
     # url(r'^$', 'day4.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^articles/', include('articles.urls')),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^articles/', include('articles.urls', namespace='articles')),
+    url(r'^admin/', include(admin.site.urls), name='admin'),
 )
