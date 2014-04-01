@@ -1,0 +1,19 @@
+# django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# static
+media
+
+# scrapper
+scrapper
+
+# database
+*.json
+*.sqlite
+
+# etc
+cheatsheet.md
+

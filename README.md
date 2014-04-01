@@ -11,18 +11,28 @@ Curriculum
 
 Day 1:
 
-- What is Web?
-- What is Django?
-- What is urls.py, views.py and templates?
+- What is Web
+- What is Django
+- What is urls.py, views.py and templates
 - ETC
- - What is python?
- - What is pip and virtualenv?
-
+ - What is python
+ - What is pip and virtualenv
+- reference: http://sparcs.kaist.ac.kr/seminar/#hodduc-20120618
 
 Day 2:
 
-- What is models.py?
+- What is models.py
+- reference: http://www.slideshare.net/lqez/smartstudy-django-201208
 
+
+Day 3:
+
+- reference: http://www.youtube.com/watch?v=3DccH9AMwFQ
+
+
+Day 4:
+
+- reference: http://www.mikesdjangotutorials.co.uk/
 
 Slides
 ------
@@ -38,8 +48,8 @@ References
 English
 
 - Official Django Tutorials : https://docs.djangoproject.com/en/dev/intro/tutorial01/
-- Mike's Django Tutorials : http://www.mikesdjangotutorials.co.uk/
 - CodingEntreprenuers Django Tutorials : http://www.youtube.com/watch?v=3DccH9AMwFQ
+- Mike's Django Tutorials : http://www.mikesdjangotutorials.co.uk/
 
 Korean
 
@@ -50,6 +60,6 @@ Korean
 Copyright
 ---------
 
-Copyright Â© 2014 Kim Tae Hoon.
+Copyright © 2014 Kim Tae Hoon.
 
 The MIT License (MIT)
