@@ -34,6 +34,11 @@ Day 4:
 
 - reference: http://www.mikesdjangotutorials.co.uk/
 
+Day 5:
+
+- reference: https://docs.djangoproject.com/en/dev/intro/tutorial01/
+
+
 Slides
 ------
 
