@@ -34,6 +34,8 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="{% block active_articles %}{% endblock %}"><a href="{% url 'articles:all' %}">Articles</a></li>
+          <li class="{% block active_login %}{% endblock %}"><a href="{% url 'accounts:login' %}">Login</a></li>
+          <li class="{% block active_join %}{% endblock %}"><a href="{% url 'accounts:join' %}">Join</a></li>
           <li><a href="{% url 'admin:index' %}">Admin</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -43,14 +45,18 @@
     </div><!--/.container-fluid -->
     </div>
 
-	<div class="jumbotron">
-		<div id="slidbar">
-			{% block sidebar %} {% endblock %}
-		</div>
+	<div class="container">
+		{% for message in messages %}
+			<p{% if message.tags == 'success' %}
+			  	class="col-md-12 alert alert-success"
+			  {% endif %}>
+				{{ message }}
+			</p>
+		{% endfor %}
 
-		<div id="content">
-			{% block content %} {% endblock %}
-		</div>
+		{% block sidebar %} {% endblock %}
+
+		{% block content %} {% endblock %}
 	</div>
 </div>
 

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+<ul>
+	<li><a href='/articles/all/'>Articles</a></li>
+</ul>
+{% endblock %}
+
+
+{% block content %}
+
+	{% if form.erros %}
+		<p class="error">Sorry, that's not a valid username or password</p>
+	{% endif %}
+
+
+
+{% endblock %}

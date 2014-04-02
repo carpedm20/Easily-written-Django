@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block active_join %}
+active
+{% endblock %}
+
+{% block content %}
+
+<form class='col-sm-6 col-sm-offset-3' method='POST' action=''> {% csrf_token %}
+    {{ form.as_p }}
+    <input type='submit' class='btn btn-success btn-lg'>
+</form>
+
+{% endblock %}
