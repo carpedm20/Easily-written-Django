@@ -38,6 +38,15 @@ Day 5:
 
 - reference: https://docs.djangoproject.com/en/dev/intro/tutorial01/
 
+Day 6:
+
+- Django rest-framework
+- reference: http://www.django-rest-framework.org/
+
+Day 7:
+
+- Django rest-framework and Angular.js
+- reference2: http://www.django-rest-framework.org/
 
 Slides
 ------
